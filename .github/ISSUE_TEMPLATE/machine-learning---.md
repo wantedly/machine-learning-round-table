@@ -2,7 +2,7 @@
 name: Machine Learning 輪講
 about: Machine Learning 輪講
 title: Machine Learning 輪講
-labels: ''
+labels: 'Machine Learning 輪講'
 assignees: ''
 
 ---
