@@ -1,6 +1,6 @@
 ## Machine Learning Round Table 🤖
 
-Wantedly では社内有志による機械学習系の勉強会を2018年３月に発足以来、**毎週木曜日の夜**に開催しています。
+Wantedly では社内有志による機械学習系の勉強会を2018年３月に発足以来、**毎週水曜日の夜**に開催しています。
 勉強会には「Machine Learning 輪講会」と「推薦・機械学習勉強会」の２種類あり、隔週で開催しています。
 
 「**Machine Learning 輪講会**」は、最新の技術や論文を追うことで、エンジニアが「技術で解決できること」のレベルをあげていくことを目的にした会です。
@@ -13,4 +13,4 @@ Wantedly では社内有志による機械学習系の勉強会を2018年３月�
 各勉強会の雰囲気は、勉強会ごとに作成される [Issues](https://github.com/wantedly/machine-learning-round-table/issues?q=is%3Aopen+is%3Aissue) である程度感じられるかもしれません。
 外部からの参加者も歓迎しているので、参加希望の方は運営の Twitter の DM（[合田/hakubishin3](https://twitter.com/jy_msc)、[樋口/zerebom_3](https://twitter.com/@zerebom_3) など） や [Wantedly Visit の募集](https://www.wantedly.com/projects/391912)よりご連絡ください。 
 
-**（注意） 2022年9月現在、勉強会はオンラインでの開催となっております。**
+**（注意） 2022年10月現在、勉強会はオンラインでの開催となっております。**
