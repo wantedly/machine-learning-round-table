@@ -1,0 +1,17 @@
+name: Summarize Issue
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  summarize_issue:
+    if: startsWith(github.event.comment.body, '/summarize-issue')
+    runs-on: ubuntu-latest
+    name: Checkout code & SummarAIze
+    steps:
+      - uses: actions/checkout@v3
+      - uses: zerebom/SummarAIzeHub@main
+        with:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
