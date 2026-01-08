@@ -1,0 +1,20 @@
+name: Random Reviewer Assignment
+on:
+  pull_request:
+    types: [labeled]
+jobs:
+  assign-reviewer:
+    if: github.event.label.name == 'vrec-random-review-assign'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const reviewers = ['nogawanogawa', 'chimuichimu', 'Hayashi-Yudai', 'ghibney'];
+            const selected = reviewers[Math.floor(Math.random() * reviewers.length)];
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              reviewers: [selected]
+            });
